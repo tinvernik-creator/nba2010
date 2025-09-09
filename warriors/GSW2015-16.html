@@ -1,0 +1,347 @@
+<html>
+    <style>
+        #nba td:nth-child(2){
+            text-decoration:underline;
+        }
+        body{
+            background-color:gold;
+        }
+        h1{
+            text-align:center;
+        }
+        div{
+            display:flex;
+            justify-content:center;
+        }
+        th{
+            color:red;
+            background-color:orange;
+        }
+        td{
+            text-align:center;
+            color:white;
+            background-color:darkblue;
+        }
+       .a {
+          border: 2px solid gray;
+          color: darkorange;
+          background-color: white;
+          text-decoration: none;
+          padding: 5px 10px;
+        }
+a{color:white;}
+        .b {
+          display: flex;
+          justify-content: space-between;
+          margin: 15px;
+        }
+        body {
+          margin: 0 20px;
+        }
+
+         .mvp {
+  background: linear-gradient(90deg, gold, orange, gold);
+  color: black !important;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  overflow: hidden; /* keeps effects inside the row */
+}
+
+/* Moving shine with embedded watermark */
+.mvp::after {
+  content: "UNANIMOUS MVP";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  font-size: 32px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9); /* shine text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+  background: linear-gradient(
+    120deg,
+    rgba(255,255,255,0.6) 0%,
+    rgba(255,255,255,0.6) 0%,
+    rgba(255,255,255,0.6) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3.5s infinite;
+  pointer-events: none; /* ignore clicks */
+}
+
+@keyframes shine {
+  100% { left: 125%; }
+}
+
+
+    </style>
+</head>
+<body>
+  <h1>Golden State Warriors roster<br>za sezonu 2015/16</h1>
+
+  <div class="b">
+    <a href="GSW2014-15.html" class="a">&lt;&lt; PRIAŠNJA SEZONA</a>
+    <a href="GSW2016-17.html" class="a">IDUĆA SEZONA &gt;&gt;</a>
+  </div>
+
+  <div><table id="NBA" border="2">
+<caption> Podatci i statistike igrača</caption>
+    <colgroup>
+    <col>
+    <col style="text-decoration:underline;color:white;">
+    <col>
+    <col>
+    <col>
+    <col>
+    <col>
+    </colgroup>
+    <tr> 
+        <th>Br.</th>
+        <th>Igrač</th>
+        <th>Pozicija</th>
+        <th>visina</th>
+        <th>KG</th>
+        <th>utakmice</th>
+        <th>MPG</th>
+        <th>PPG</th>
+        <th>RPG</th>
+        <th>APG</th>
+        <th>FG%</th>
+        <th>3PT%</th>
+        <th>3PA</th>
+        <th>FT%</th>
+        <th>izg.</th>
+        <th>ukr.</th>
+        <th>blok</th>
+        <th>faul</th>
+    </tr>
+<tr class="mvp">
+<td>30</td>
+<td><a href="https://www.basketball-reference.com/players/c/curryst01.html">Stephen Curry*</a></td>
+<td>PG</td>
+<td>191</td>
+<td>86</td>
+<td>79</td>
+<td>34.2</td>
+<td>30.1</td>
+<td>5.4</td>
+<td>6.7</td>
+<td>50.4</td>
+<td>45.4</td>
+<td>11.2</td>
+<td>90.8</td>
+<td>3.3</td>
+<td>2.1</td>
+<td>0.2</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="https://www.basketball-reference.com/players/t/thompkl01.html">Klay Thompson</a></td>
+<td>SG</td>
+<td>198</td>
+<td>98</td>
+<td>80</td>
+<td>33.3</td>
+<td>22.1</td>
+<td>3.8</td>
+<td>2.1</td>
+<td>47.0</td>
+<td>42.5</td>
+<td>8.1</td>
+<td>87.3</td>
+<td>1.7</td>
+<td>0.8</td>
+<td>0.6</td>
+<td>2.4</td>
+</tr>
+<tr>
+<td>23</td>
+<td><a href="https://www.basketball-reference.com/players/g/greendr01.html">Draymond Green</a></td>
+<td>PF</td>
+<td>198</td>
+<td>104</td>
+<td>81</td>
+<td>34.7</td>
+<td>14.0</td>
+<td>9.5</td>
+<td>7.4</td>
+<td>49.0</td>
+<td>38.8</td>
+<td>3.2</td>
+<td>69.6</td>
+<td>3.2</td>
+<td>1.5</td>
+<td>1.4</td>
+<td>3.2</td>
+</tr>
+<tr>
+<td>40</td>
+<td><a href="https://www.basketball-reference.com/players/b/barneha02.html">Harrison Barnes</a></td>
+<td>SF</td>
+<td>201</td>
+<td>102</td>
+<td>66</td>
+<td>30.9</td>
+<td>11.7</td>
+<td>4.9</td>
+<td>1.8</td>
+<td>46.6</td>
+<td>38.3</td>
+<td>3.5</td>
+<td>76.1</td>
+<td>1.0</td>
+<td>0.6</td>
+<td>0.2</td>
+<td>2.3</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://www.basketball-reference.com/players/i/iguodan01.html">Andre Iguodala</a></td>
+<td>SF</td>
+<td>198</td>
+<td>97</td>
+<td>65</td>
+<td>26.6</td>
+<td>7.0</td>
+<td>4.0</td>
+<td>3.4</td>
+<td>47.8</td>
+<td>35.1</td>
+<td>2.4</td>
+<td>61.4</td>
+<td>1.0</td>
+<td>1.1</td>
+<td>0.3</td>
+<td>1.7</td>
+</tr>
+<tr>
+<td>34</td>
+<td><a href="https://www.basketball-reference.com/players/l/livinsh01.html">Shaun Livingston</a></td>
+<td>PG</td>
+<td>201</td>
+<td>83</td>
+<td>78</td>
+<td>19.5</td>
+<td>6.3</td>
+<td>2.2</td>
+<td>3.0</td>
+<td>53.6</td>
+<td>16.7</td>
+<td>0.1</td>
+<td>86.0</td>
+<td>0.9</td>
+<td>0.6</td>
+<td>0.4</td>
+<td>1.8</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://www.basketball-reference.com/players/b/barbole01.html">Leandro Barbosa</a></td>
+<td>SG</td>
+<td>191</td>
+<td>91</td>
+<td>66</td>
+<td>15.9</td>
+<td>6.4</td>
+<td>1.7</td>
+<td>1.2</td>
+<td>46.2</td>
+<td>35.5</td>
+<td>1.5</td>
+<td>80.5</td>
+<td>0.9</td>
+<td>0.5</td>
+<td>0.1</td>
+<td>1.5</td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="https://www.basketball-reference.com/players/s/speigma01.html">Marreese Speights</a></td>
+<td>PF</td>
+<td>208</td>
+<td>111</td>
+<td>72</td>
+<td>11.6</td>
+<td>7.1</td>
+<td>3.3</td>
+<td>0.8</td>
+<td>43.0</td>
+<td>24.3</td>
+<td>0.3</td>
+<td>83.4</td>
+<td>1.0</td>
+<td>0.3</td>
+<td>0.3</td>
+<td>2.2</td>
+</tr>
+<tr>
+<td>31</td>
+<td><a href="https://www.basketball-reference.com/players/e/ezelife01.html">Festus Ezeli</a></td>
+<td>C</td>
+<td>211</td>
+<td>115</td>
+<td>46</td>
+<td>16.7</td>
+<td>7.0</td>
+<td>5.6</td>
+<td>0.6</td>
+<td>54.8</td>
+<td>0.0</td>
+<td>0.0</td>
+<td>53.4</td>
+<td>0.9</td>
+<td>0.4</td>
+<td>1.1</td>
+<td>2.2</td>
+</tr>
+<tr>
+<td>36</td>
+<td><a href="https://www.basketball-reference.com/players/r/rushebr01.html">Brandon Rush</a></td>
+<td>SG</td>
+<td>198</td>
+<td>100</td>
+<td>72</td>
+<td>14.7</td>
+<td>4.2</td>
+<td>2.5</td>
+<td>0.6</td>
+<td>43.1</td>
+<td>41.4</td>
+<td>2.2</td>
+<td>76.9</td>
+<td>0.4</td>
+<td>0.3</td>
+<td>0.2</td>
+<td>1.0</td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="https://www.basketball-reference.com/players/v/varanja01.html">Anderson Varejão</a></td>
+<td>C</td>
+<td>211</td>
+<td>118</td>
+<td>22</td>
+<td>14.5</td>
+<td>2.6</td>
+<td>2.3</td>
+<td>0.6</td>
+<td>41.0</td>
+<td>0.0</td>
+<td>0.1</td>
+<td>64.3</td>
+<td>0.6</td>
+<td>0.3</td>
+<td>0.2</td>
+<td>1.5</td>
+</tr>
+</table>
+  </div>
+</body>
+</html>

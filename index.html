@@ -1,0 +1,116 @@
+<html>
+<style>
+  body {
+    display: flex;
+    flex-direction: column; /* header/nav stacked above grid */
+    align-items: center;
+    margin: 0;
+    background-color: beige;
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    margin-top: 20px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 15px;
+    width: 80%;      /* grid takes up 80% of page width */
+    max-width: 900px; /* keeps it from growing too huge */
+    margin-top: 20px;
+  }
+
+  figure {
+    text-align: center;
+    margin: 0;
+  }
+
+  .grid a img {
+.grid a img{
+     width: 100%;
+  aspect-ratio: 1 / 1;  /* still keeps square cells */
+  object-fit: contain;  /* show full image, no cropping */
+  background: white;    /* optional: fills empty space */
+  border: 3px solid black;
+  transition: all 0.2s ease;
+}
+
+    transition: all 0.2s ease; /* smooth hover */
+  }
+
+  .grid a img:hover {
+    transform: scale(1.05);
+    border-color: darkred;
+  }
+
+  figcaption {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .a {
+    border: 3px solid rgba(21,100,60,0.3);
+    text-decoration: none;
+    padding: 3px 8px;
+    background: white;
+    border-radius: 4px;
+  }
+
+
+</style>
+
+<body>
+
+  <h1>2010's NBA</h1>
+  <p>
+    2010-te su bile nabolje vrijeme za košarku<br>
+    i sve je počelo osmoga srpnja 2010. godine sa 
+    <a href="https://www.youtube.com/watch?v=RTeCc8jy7FI&t=27s"target=_blank>Krukovom odlukom</a>
+  </p>
+
+  <div class="grid">
+    <figure>
+      <a href="2010-11.html"><img src="images/10-11.png"></a>
+      <figcaption>2010/11</figcaption>
+    </figure>
+    <figure>
+      <a href="2011-12.html"><img src="images/11-12.png"></a>
+      <figcaption>2011/12</figcaption>
+    </figure>
+    <figure>
+      <a href="2012-13.html"><img src="images/12-13.png"></a>
+      <figcaption>2012/13</figcaption>
+    </figure>
+
+    <figure>
+      <a href="2013-14.html"><img src="images/13-14.png"></a>
+      <figcaption>2013/14</figcaption>
+    </figure>
+    <figure>
+      <a href="2014-15.html"><img src="images/14-15.png"></a>
+      <figcaption>2014/15</figcaption>
+    </figure>
+    <figure>
+      <a href="2015-16.html"><img src="images/15-16.png"></a>
+      <figcaption>2015/16</figcaption>
+    </figure>
+
+    <figure>
+      <a href="2016-17.html"><img src="images/16-17.png"></a>
+      <figcaption>2016/17</figcaption>
+    </figure>
+    <figure>
+      <a href="2017-18.html"><img src="images/17-18.png"></a>
+      <figcaption>2017/18</figcaption>
+    </figure>
+    <figure>
+      <a href="2018-19.html"><img src="images/18-19.png"></a>
+      <figcaption>2018/19</figcaption>
+    </figure>
+  </div>
+
+</body>
+</html>

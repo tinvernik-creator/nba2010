@@ -1,0 +1,370 @@
+<html>
+  <style>
+    .s {
+      background-color: gray;
+      color: white;
+    }
+    .b {
+      background-color: red;
+      color: white;
+    }
+    .w {
+      width: 850px;
+      text-align: center;
+      color: black;
+    }
+    div {
+      display: flex;
+      justify-content: center;
+    }
+    .e {
+      width: 850px;
+      text-align: center;
+    }
+    a {
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    .cutoff {
+      border-bottom: 3px solid black;
+    }
+  </style>
+  <body>
+    <div>
+      <table border="1" class="w">
+        <tr class="s">
+          <th>poz</th>
+          <th>tim</th>
+          <th>pobjede</th>
+          <th>porazi</th>
+          <th>%</th>
+          <th>kod kuće</th>
+          <th>u gostima</th>
+          <th>Playoffs</th>
+        </tr>
+        <!-- Playoff Teams -->
+        <tr>
+          <td>1</td>
+          <td><img src="spurs/spurs11-12.png" height="25"><a href="spurs/sas11-12.html">Spurs</a></td>
+          <td>50</td>
+          <td>16</td>
+          <td>.758</td>
+          <td>28-5</td>
+          <td>22-11</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><img src="okc/okc11-12.png" height="25"><a href="okc/okc11-12.html">Thunder</a></td>
+          <td>47</td>
+          <td>19</td>
+          <td>.712</td>
+          <td>26-7</td>
+          <td>21-12</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><img src="lakers/lal11-12.png" height="25"><a href="lakers/lakers11-12.html">Lakers</a></td>
+          <td>41</td>
+          <td>25</td>
+          <td>.621</td>
+          <td>26-7</td>
+          <td>15-18</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><img src="memphis/grizz11-12.png" height="25"><a href="memphis/grizz11-12.html">Grizzlies</a></td>
+          <td>41</td>
+          <td>25</td>
+          <td>.621</td>
+          <td>26-7</td>
+          <td>15-18</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><img src="clippers/clippers11-12.png" height="25"><a href="clippers/clippers11-12.html">Clippers</a></td>
+          <td>40</td>
+          <td>26</td>
+          <td>.606</td>
+          <td>24-9</td>
+          <td>16-17</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><img src="denver/nuggets11-12.png" height="25"><a href="denver/nuggets11-12.html">Nuggets</a></td>
+          <td>38</td>
+          <td>28</td>
+          <td>.576</td>
+          <td>20-13</td>
+          <td>18-15</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td><img src="dallas/mavs11-12.png" height="25"><a href="dallas/mavs11-12.html">Mavericks</a></td>
+          <td>36</td>
+          <td>30</td>
+          <td>.545</td>
+          <td>23-10</td>
+          <td>13-20</td>
+          <td>✅</td>
+        </tr>
+        <tr class="cutoff">
+          <td>8</td>
+          <td><img src="utah/jazz11-12.png" height="25"><a href="utah/jazz11-12.html">Jazz</a></td>
+          <td>36</td>
+          <td>30</td>
+          <td>.545</td>
+          <td>25-8</td>
+          <td>11-22</td>
+          <td>✅</td>
+        </tr>
+        <!-- Non-Playoff Teams -->
+        <tr>
+          <td>9</td>
+          <td><img src="phoenix/suns11-12.png" height="25"><a href="phoenix/suns11-12.html">Suns</a></td>
+          <td>33</td>
+          <td>33</td>
+          <td>.500</td>
+          <td>19-14</td>
+          <td>14-19</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td><img src="houston/rockets11-12.png" height="25"><a href="houston/rockets11-12.html">Rockets</a></td>
+          <td>34</td>
+          <td>32</td>
+          <td>.515</td>
+          <td>21-12</td>
+          <td>13-20</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td><img src="portland/blazers11-12.png" height="25"><a href="portland/blazers11-12.html">Trail Blazers</a></td>
+          <td>28</td>
+          <td>38</td>
+          <td>.424</td>
+          <td>20-13</td>
+          <td>8-25</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td><img src="wolves/min11-12.png" height="25"><a href="wolves/min11-12.html">Timberwolves</a></td>
+          <td>26</td>
+          <td>40</td>
+          <td>.394</td>
+          <td>13-20</td>
+          <td>13-20</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td><img src="warriors/gsw11-12.png" height="25"><a href="warriors/gsw11-12.html">Warriors</a></td>
+          <td>23</td>
+          <td>43</td>
+          <td>.348</td>
+          <td>15-18</td>
+          <td>8-25</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td><img src="sacramento/kings11-12.png" height="25"><a href="sacramento/kings11-12.html">Kings</a></td>
+          <td>22</td>
+          <td>44</td>
+          <td>.333</td>
+          <td>16-17</td>
+          <td>6-27</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td><img src="neworleans/hornets11-12.png" height="25"><a href="neworleans/hornets11-12.html">Hornets</a></td>
+          <td>21</td>
+          <td>45</td>
+          <td>.318</td>
+          <td>11-22</td>
+          <td>10-23</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <br>
+    <div>
+      <table border="1" class="e">
+        <caption style="font-size:26px;font-weight:bold;"> Tablica Istočne konferencije</caption>
+        <tr class="b">
+          <th>poz</th>
+          <th>tim</th>
+          <th>pobjede</th>
+          <th>porazi</th>
+          <th>%</th>
+          <th>kod kuće</th>
+          <th>u gostima</th>
+          <th>Playoffs</th>
+        </tr>
+        <!-- Playoff Teams -->
+        <tr>
+          <td>1</td>
+          <td><img src="bulls/bulls11-12.png" height="25"><a href="bulls/bulls11-12.html">Bulls</a></td>
+          <td>50</td>
+          <td>16</td>
+          <td>.758</td>
+          <td>26-7</td>
+          <td>24-9</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><img src="heat/heat11-12.png" height="25"><a href="heat/heat11-12.html">Heat</a></td>
+          <td>46</td>
+          <td>20</td>
+          <td>.697</td>
+          <td>28-5</td>
+          <td>18-15</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><img src="pacers/pacers11-12.png" height="25"><a href="pacers/pacers11-12.html">Pacers</a></td>
+          <td>42</td>
+          <td>24</td>
+          <td>.636</td>
+          <td>23-10</td>
+          <td>19-14</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><img src="boston/bos11-12.png" height="25"><a href="boston/bos11-12.html">Celtics</a></td>
+          <td>39</td>
+          <td>27</td>
+          <td>.591</td>
+          <td>23-10</td>
+          <td>16-17</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><img src="hawks/hawks11-12.png" height="25"><a href="hawks/hawks11-12.html">Hawks</a></td>
+          <td>40</td>
+          <td>26</td>
+          <td>.606</td>
+          <td>23-10</td>
+          <td>17-16</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><img src="orlando/magic11-12.png" height="25"><a href="orlando/magic11-12.html">Magic</a></td>
+          <td>37</td>
+          <td>29</td>
+          <td>.561</td>
+          <td>21-12</td>
+          <td>16-17</td>
+          <td>✅</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td><img src="knicks/knicks11-12.png" height="25"><a href="knicks/knicks11-12.html">Knicks</a></td>
+          <td>36</td>
+          <td>30</td>
+          <td>.545</td>
+          <td>22-11</td>
+          <td>14-19</td>
+          <td>✅</td>
+        </tr>
+        <tr class="cutoff">
+          <td>8</td>
+          <td><img src="sixers/sixers11-12.png" height="25"><a href="sixers/sixers11-12.html">76ers</a></td>
+          <td>35</td>
+          <td>31</td>
+          <td>.530</td>
+          <td>22-11</td>
+          <td>13-20</td>
+          <td>✅</td>
+        </tr>
+        <!-- Non-Playoff Teams -->
+        <tr>
+          <td>9</td>
+          <td><img src="bucks/bucks11-12.png" height="25"><a href="bucks/bucks11-12.html">Bucks</a></td>
+          <td>31</td>
+          <td>35</td>
+          <td>.470</td>
+          <td>21-12</td>
+          <td>10-23</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td><img src="pistons/pistons11-12.png" height="25"><a href="pistons/pistons11-12.html">Pistons</a></td>
+          <td>25</td>
+          <td>41</td>
+          <td>.379</td>
+          <td>17-16</td>
+          <td>8-25</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td><img src="raptors/raptors11-12.png" height="25"><a href="raptors/raptors11-12.html">Raptors</a></td>
+          <td>23</td>
+          <td>43</td>
+          <td>.348</td>
+          <td>13-20</td>
+          <td>10-23</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td><img src="nets/nets11-12.png" height="25"><a href="nets/nets11-12.html">Nets</a></td>
+          <td>22</td>
+          <td>44</td>
+          <td>.333</td>
+          <td>9-24</td>
+          <td>13-20</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td><img src="cavs/cavs11-12.png" height="25"><a href="cavs/cavs11-12.html">Cavaliers</a></td>
+          <td>21</td>
+          <td>45</td>
+          <td>.318</td>
+          <td>13-20</td>
+          <td>8-25</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td><img src="wizards/wizards11-12.png" height="25"><a href="wizards/wizards11-12.html">Wizards</a></td>
+          <td>20</td>
+          <td>46</td>
+          <td>.303</td>
+          <td>13-20</td>
+          <td>7-26</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td><img src="charlotte/bobcats11-12.png" height="25"><a href="charlotte/bobcats11-12.html">Bobcats</a></td>
+          <td>7</td>
+          <td>59</td>
+          <td>.106</td>
+          <td>4-29</td>
+          <td>3-30</td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
